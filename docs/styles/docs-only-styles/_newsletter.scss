@@ -1,0 +1,8 @@
+.docs-only-styles {
+    .newsletter {
+        background: $gray-darkest;
+        @include mq($screen-l) {
+            background: $gray-darker;
+        }
+    }
+}
